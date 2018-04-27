@@ -10,6 +10,10 @@ lein:
  - 1.9.0
   
 build:
+  pre_ci_boot:
+    image_name: drydock/u14cloall
+    image_tag: master
+    pull: true
       
   ci:
     - lein version
