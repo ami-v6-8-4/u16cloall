@@ -8,4 +8,4 @@ build:
   ci:
     - lein version
     - echo "(print *clojure-version*)" > clojure.main  
-    - clj clojure.main
+    - clj clojure.main 
